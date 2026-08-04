@@ -1,0 +1,208 @@
+#page title
+page_title                                : Wingman - Flight & Cabin Crew AIMS eCrew App         # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+
+# App Info
+ios_app_id                                : 6742027238                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+
+appstore_link                             : https://apps.apple.com/us/app/wingman-crew-roster/id6742027238                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            : https://play.google.com/store/apps/details?id=com.wingman.roster                                          # Enter Google Play Store URL.
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+
+app_icon                                  : assets/icon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : Wingman                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : Monthly €3.99 or Annual €34.99               # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Wingman is a crew roster app for airline pilots and cabin crew using AIMS eCrew. View rosters, track roster changes, search flights, export to your calendar and calculate pay.
+
+enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+
+# Information About Yourself
+your_name                                 :                              
+your_link                                 :                     
+your_city                                 :                             
+email_address                             : contact.wingmanapp@gmail.com
+facebook_username                         :                                           
+instagram_username                        : 
+twitter_username                          : 
+github_username                           : 
+youtube_username                          :
+mastodon_link                             : 
+
+
+
+# Feature List                            Edit, add or remove features to be presented.
+features                                  :
+
+  - title                                 : Instantly Load Your Roster
+    description                           : View your schedule in the way that suits you best—choose between an intuitive overview or the classic horizontal format.
+    fontawesome_icon_name                 : calendar
+    
+  - title                                 : Export to Calendar
+    description                           : Seamlessly sync your roster with your preferred calendar app, whether it's iOS, Google, or Outlook.
+    fontawesome_icon_name                 : file-export
+
+  - title                                 : Flight Lookup
+    description                           : Search for any flight within your airline and see real-time crew assignments for better planning.
+    fontawesome_icon_name                 : plane-departure
+
+  - title                                 : Compare Rosters
+    description                           : Look up colleagues’ rosters and compare schedules side by side.
+    fontawesome_icon_name                 : users
+
+  - title                                 : Flight Statistics & FTL Tracking
+    description                           : Get an interactive map with up-to-date flight and duty limits (FTLs) to stay compliant and informed.
+    fontawesome_icon_name                 : globe
+
+  - title                                 : Pay Calculator (Limited Availability) 
+    description                           : For select airlines, quickly estimate your variable pay with our built-in calculator.
+    fontawesome_icon_name                 : euro-sign
+
+# Supported Airlines
+airlines:
+  - name: Aer Lingus
+  - name: Aerovias DAP
+  - name: Air Asia
+  - name: Air Astana
+  - name: Air Belgium
+  - name: Air Cambodia
+  - name: Air Creebec
+  - name: Air Greenland
+  - name: Air Inuit
+  - name: Air Serbia
+  - name: Air Tanker
+  - name: Air Transat
+  - name: Animawings
+  - name: Arajet
+  - name: ASL
+  - name: Atlas Air
+  - name: Avion Express
+  - name: Azerbaijan Airlines
+  - name: BA CityFlyer/EuroFlyer
+  - name: Bamboo Airways
+  - name: Binter Canarias
+  - name: Cargolux
+  - name: Cebu Pacific
+  - name: Chair Airlines
+  - name: China Airlines
+  - name: CHC Helicopters
+  - name: Copa Airlines
+  - name: DHL Air
+  - name: DHL Austria
+  - name: DHL Aviation BSC
+  - name: DHL LATAM
+  - name: EasyJet
+  - name: EAT
+  - name: Etihad
+  - name: EuroAtlantic Airways
+  - name: flyadeal
+  - name: Flydubai
+  - name: Flynas
+  - name: FlySafair
+  - name: Gulf Air
+  - name: HiSky
+  - name: HK Express
+  - name: Horizon Air
+  - name: Iberia Express
+  - name: Ibom Air
+  - name: IndiGo
+  - name: Jazeera Airways
+  - name: JetSmart
+  - name: Kenya Airways
+  - name: Kuwait Airways
+  - name: Level
+  - name: Lion Group
+  - name: Marabu
+  - name: Mavi Gok
+  - name: MSC Air Cargo
+  - name: National Airlines
+  - name: Oman Air
+  - name: Pelita Air
+  - name: Plus Ultra
+  - name: Precision Air
+  - name: Rise Air
+  - name: Royal Brunei Airlines
+  - name: Royal Jordanian
+  - name: RwandAir
+  - name: S7 Airlines
+  - name: SalamAir
+  - name: SATA
+  - name: SATENA
+  - name: Scoot
+  - name: SKY Express
+  - name: Smartwings
+  - name: Sun PhuQuoc Airways
+  - name: Swiftair
+  - name: TAROM
+  - name: Vietjet Air
+  - name: Vietravel Airlines
+  - name: Virgin Atlantic
+  - name: Viva Aerobus
+  - name: Volotea
+  - name: Vueling
+  - name: Wizz Air
+
+# Theme Settings
+topbar_color                              : "#000000"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#363b3d"
+cover_overlay_transparency                : 0.8
+
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+
+body_background_color                     : "#ffffff"
+
+link_color                                : "#1d63ea"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#1d63ea"
+feature_icons_background_color            : "#e6e6e6"
+
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+
+footer_text_color                         : "#666666"
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown
